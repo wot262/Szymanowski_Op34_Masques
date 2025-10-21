@@ -1,59 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xml:id="mei-31h4yc1" meiversion="5.1" xmlns="http://www.music-encoding.org/ns/mei">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title>Scheherazade – Shéhérazade</title>
-            <respStmt>
-               <persName role="composer">Karol Szymanowski</persName>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xml:id="m6d0sk6" meiversion="5.0" xmlns="http://www.music-encoding.org/ns/mei">
+   <meiHead xml:id="m0gs4wm2">
+      <fileDesc xml:id="fb5wd171">
+         <titleStmt xml:id="tscilrd1">
+            <title xml:id="tpr3vss1">Scheherazade – Shéhérazade</title>
+            <respStmt xml:id="rk8dtxp2">
+               <persName xml:id="pqywcf2" role="composer">Karol Szymanowski</persName>
             </respStmt>
          </titleStmt>
-         <pubStmt>
-            <date isodate="2023-11-25" type="encoding-date">2023-11-25</date>
+         <pubStmt xml:id="p4gcnoe">
+            <date xml:id="dcn2rhd1" isodate="2023-11-25" type="encoding-date">2023-11-25</date>
          </pubStmt>
       </fileDesc>
-      <encodingDesc>
-         <appInfo>
-            <application isodate="2025-10-13T13:37:27" version="5.7.0-dev-b7dca74">
-               <name>Verovio</name>
-               <p>Transcoded from MusicXML</p>
+      <encodingDesc xml:id="e879cql1">
+         <appInfo xml:id="ao12e991">
+            <application xml:id="absp2ze1" isodate="2025-10-13T13:37:27" version="5.7.0-dev-b7dca74">
+               <name xml:id="noui1121">Verovio</name>
+               <p xml:id="p7rwbe71">Transcoded from MusicXML</p>
             </application>
-            <application enddate="2025-10-13T14:05:34" startdate="2025-10-13T13:45:05" version="1.2.9">
-               <name>mei-friend</name>
-               <p>First edit by mei-friend 1.2.9.</p>
+            <application xml:id="at7hmwo2" enddate="2025-10-21T04:02:32" startdate="2025-10-13T13:45:05" version="1.2.9">
+               <name xml:id="noyyial2">mei-friend</name>
+               <p xml:id="puco4uu2">First edit by mei-friend 1.2.9.</p>
             </application>
          </appInfo>
       </encodingDesc>
    </meiHead>
-   <music>
-      <body>
-         <mdiv>
-            <score>
-               <scoreDef meter.count="3" meter.unit="4">
-                  <pgHead>
-                     <rend fontweight="bold" halign="center" valign="top">Scheherazade – Shéhérazade</rend>
-                     <rend halign="right" valign="bottom">Karol Szymanowski Op.34 („Masques“ No. 1)</rend>
-                  </pgHead>
-                  <staffGrp bar.thru="true" symbol="brace">
-                     <label>Klavier</label>
-                     <staffDef n="1" lines="5" clef.shape="G" clef.line="2"/>
-                     <staffDef n="2" lines="5" clef.shape="G" clef.line="2"/>
-                     <staffDef n="3" lines="5" clef.shape="F" clef.line="4"/>
-                  </staffGrp>
-               </scoreDef>
-               <section>
-                  <pb/>
-                  <measure n="1">
-                     <staff n="1"/>
-                     <staff n="2"/>
-                     <staff n="3">
-                        <layer n="1">
-                           
-                        </layer>    
-                     </staff> 
-                  </measure>
-               </section>
-            </score>
-         </mdiv>
-      </body>
-   </music>
+  <music xml:id="m3o30ur2">
+    <body xml:id="bp6znqe">
+      <mdiv xml:id="mo6y3kt1">
+        <score xml:id="s0wdtl7">
+          <scoreDef xml:id="sbutzeb" meter.count="3" meter.unit="4">
+            <pgHead xml:id="pgebkf01">
+              <rend xml:id="rtuy1h21" fontsize="x-large" fontweight="bold" halign="center" valign="top">Scheherazade – Shéhérazade</rend>
+              <rend xml:id="rhepn611" fontsize="small" halign="right" valign="bottom">Karol Szymanowski Op.34 („Masques“ No. 1)</rend>
+            </pgHead>
+            <staffGrp xml:id="sbsu0bk2" bar.thru="true" symbol="brace">
+              <label xml:id="l8mmig6">Klavier</label>
+              <staffDef xml:id="se7hxfv1" clef.line="2" clef.shape="G" lines="5" n="1"/>
+              <staffDef xml:id="s3qtzz51" clef.line="2" clef.shape="G" lines="5" n="2"/>
+              <staffDef xml:id="sl0i5ft1" clef.line="4" clef.shape="F" lines="5" n="3"/>
+            </staffGrp>
+          </scoreDef>
+          <section xml:id="s22s9lz1">
+            <measure xml:id="mqjbkff" n="1">
+                 <tempo xml:id="ti9huqc1" midi.bpm="60" place="above" staff="1" tstamp="1" xml:lang="it">
+                    <rend xml:id="ru9f3bt2" fontfam="FreeSerif" fontweight="bold">Lento assai. Lanuido.</rend>
+                 </tempo>
+              <staff xml:id="s9nap3k2" n="1">
+                <layer xml:id="lgxf6sb1" n="1">
+                  <rest xml:id="rknr45a" dur="1"/>
+                </layer>
+              </staff>
+              <staff xml:id="swl9xhp1" n="2">
+                <layer xml:id="ln4727j2" n="1">
+                  <rest xml:id="rf3zzt21" dur="1"/>
+                </layer>
+              </staff>
+              <staff xml:id="sjg54ev1" n="3">
+                <layer xml:id="lu15nzv1" n="1">
+                   <note xml:id="nlxuwv31" dur="4" oct="3" pname="a">
+                      <artic xml:id="ax5qtgp2" artic="stacc"/>
+                   </note>
+                   <note xml:id="n4vs73c" dur="4" oct="3" pname="a">
+                      <artic xml:id="araitk71" artic="stacc"/>
+                   </note>
+                   <note xml:id="nes978f1" dur="4" oct="3" pname="a">
+                      <artic xml:id="adf9qjp1" artic="stacc"/>
+                   </note>
+                 </layer>
+              </staff>
+               <slur xml:id="sucko9p1" endid="#navb5el1" staff="3" startid="#nlxuwv31"/>
+             </measure>
+            <measure xml:id="mntipun1" n="2">
+               <staff xml:id="sy1lt3r2" n="1"><layer xml:id="lim18we" n="1"><rest xml:id="r5rsque" dur="1"/></layer></staff>
+               <staff xml:id="sqk0lny1" n="2"><layer xml:id="lfey5dp1" n="1"><rest xml:id="rdo5ynf" dur="1"/></layer></staff>
+               <staff xml:id="slagpza" n="3"><layer xml:id="l56dvs91" n="1"><note xml:id="n1h6fti1" dur="4" oct="3" pname="a">
+                  <artic xml:id="as7lpz3" artic="stacc"/>
+                  </note><note xml:id="n7iu6td" dur="4" oct="3" pname="a">
+                  <artic xml:id="a8290jp2" artic="stacc"/>
+                  </note><note xml:id="navb5el1" dur="4" oct="3" pname="a">
+                  <artic xml:id="ai2ldfv1" artic="stacc"/>
+                  </note></layer></staff>
+            </measure>
+            <measure n="3">
+               <staff n="1"><layer n="1"></layer></staff>
+            </measure>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
 </mei>
