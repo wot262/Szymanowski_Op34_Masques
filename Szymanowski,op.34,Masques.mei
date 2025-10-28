@@ -17,7 +17,7 @@
                <name xml:id="noui1121">Verovio</name>
                <p xml:id="p7rwbe71">Transcoded from MusicXML</p>
             </application>
-            <application xml:id="at7hmwo2" enddate="2025-10-25T00:03:42" startdate="2025-10-13T13:45:05" version="1.2.9">
+            <application xml:id="at7hmwo2" enddate="2025-10-28T10:39:18" startdate="2025-10-13T13:45:05" version="1.2.9">
                <name xml:id="noyyial2">mei-friend</name>
                <p xml:id="puco4uu2">First edit by mei-friend 1.2.9.</p>
             </application>
@@ -70,6 +70,7 @@
               </staff>
                <slur xml:id="sucko9p1" endid="#navb5el1" staff="3" startid="#nlxuwv31"/>
                <dir xml:id="dhh3ogt1" staff="3" startid="#nlxuwv31">(con Ped.)</dir>
+               <arpeg xml:id="aqe96qf1" order="up" plist="#nlxuwv31" staff="3"/>
              </measure>
             <measure xml:id="mntipun1" n="2">
                <staff xml:id="sy1lt3r2" n="1"><layer xml:id="lim18we" n="1"><rest xml:id="r5rsque" dur="1"/></layer></staff>
@@ -105,8 +106,8 @@
 
                      <beam xml:id="b61p8ut1">
                         <chord xml:id="cholguv2">
-                           <note xml:id="nlovsiv2" dur="16" oct="5" pname="c"/>
-                           <note xml:id="nyu0pvc1" dur="16" oct="6" pname="c"/>
+                           <note xml:id="nlovsiv2" dur="8" oct="5" pname="c"/>
+                           <note xml:id="nyu0pvc1" dur="8" oct="6" pname="c"/>
                            <artic xml:id="algvjem2" artic="ten" place="above"/>
                         </chord>
                         <chord xml:id="c3uwnb6">
@@ -179,8 +180,8 @@
                    <layer xml:id="ln7g8a3" n="2">
                       <beam xml:id="b6giabg">
                          <chord xml:id="c35ivt71">
-                            <note xml:id="n4lrx6u1" dur="16" oct="4" pname="b"/>
-                            <note xml:id="ng4xl89" dur="16" oct="5" pname="b"/>
+                            <note xml:id="n4lrx6u1" dur="8" oct="4" pname="b"/>
+                            <note xml:id="ng4xl89" dur="8" oct="5" pname="b"/>
                          </chord>
                          <chord xml:id="c1bnzzw1">
                             <note xml:id="njlaps31" dur="8" oct="4" pname="a">
@@ -239,6 +240,51 @@
                 <slur xml:id="swzypju1" endid="nhj7uo51" startid="n1xbw6s1"/>
                 <arpeg xml:id="a2xasis1" order="up" plist="#nob4l6l2 #n48pf24 #nfpkljz2 #n1xbw6s1" staff="2 3"/>
              </measure>
+             <measure xml:id="m3apdmj1" n="5">
+                <staff xml:id="s98vvzd1" n="1">
+                   <layer xml:id="lubeowi1" n="1">
+                      <graceGrp xml:id="g5r177f1">
+                      <beam xml:id="bxtejrb1">
+                      <note xml:id="nsez7eq1" dur="16" oct="5" pname="d" stem.dir="up"/>
+                         <note xml:id="ngtjny6" dur="16" oct="5" pname="a" stem.dir="up"/>
+                         <note xml:id="nalyvq4" dur="16" oct="6" pname="d" stem.dir="up"/>
+                      </beam>
+                   </graceGrp>
+                      <note xml:id="ncfdm2a" dots="1" dur="2" oct="5" pname="a" stem.dir="up"/>                      
+                   </layer>
+                   <layer xml:id="l0ntmnf" n="2">
+                      <beam xml:id="bllnys9">
+                         <chord xml:id="cnm7jj01" dur="16">
+                            <note xml:id="nyelu591" oct="5" pname="d"/>
+                            <note xml:id="nmxrxik1" oct="6" pname="d"/>
+                         </chord>
+                         <chord xml:id="cm0l8ss2" dur="8">
+                            <note xml:id="nfm3ff81" oct="5" pname="f"/>
+                            <note xml:id="nz5dukj2" oct="6" pname="f"/>                            
+                         </chord>
+                      </beam>
+                      <beam xml:id="byzxfm41">
+                         <chord xml:id="cnuxahg" dur="16">
+                            <note xml:id="n0usl9i1" oct="5" pname="f"/>
+                            <note xml:id="nbp6806" oct="6" pname="f"/>
+                         </chord>
+                         <chord xml:id="c18y75e1" dur="8">
+                            <note xml:id="nztussv2" oct="5" pname="e"/>
+                            <note xml:id="nzi9y22" oct="6" pname="e"/>                            
+                         </chord>
+                      </beam>
+                      <chord xml:id="cwa6mlj1" dur="4">
+                         <note xml:id="nofas2i1" oct="5" pname="e"/>
+                         <note xml:id="n33pbcg1" oct="6" pname="e"/>     
+                      </chord>
+
+                   </layer>
+
+                          
+                </staff>
+             </measure>
+
+
           </section>
         </score>
       </mdiv>
